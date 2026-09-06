@@ -8,8 +8,9 @@ Also needs math.h & cjson.h.
 <img width="830" height="768" alt="Screenshot showing sample output" src="https://github.com/user-attachments/assets/894e813a-99cf-4e9e-90fc-a845b84e8546" />
 
 The first column shows the premium and the monthly instrument that we are dealing with (calling it the "leg").
+
 Second column shows the difference between the leg's strike and the futures. And in brackets difference between legs's premium and Nifty Future.
-The numbers in bracket is the interesting difference and this is what we we can pocketDirect leak of 99 byte(s) in 1 object(s) allocated from:. 
+The numbers in bracket is the interesting difference and this is what we we can pocket.
 
 Third column is the same thing but with the Nifty LTP.
 Fourth columns is the difference between the current leg and the one before it. Since they are moving 50 points, it's always 50.
